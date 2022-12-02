@@ -255,7 +255,7 @@ func HF_Atoi(s string) int {
 }
 func main() {
 	defer func() {
-		// recover内置函数，可以捕获到异常
+		// recover内置函数，可以捕获到异常1
 		err := recover()
 		if err != nil {
 			fmt.Println("err:", err)
